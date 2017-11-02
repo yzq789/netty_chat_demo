@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'hello word!'
-                bat 'set'
+                bat 'echo hello world!'
+                bat 'echo hello yzq!'
             }
         }
     }
